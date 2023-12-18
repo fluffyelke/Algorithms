@@ -1,17 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 /* 
  * File:   main.cpp
- * Author: stapw
+ * Author: default
  *
- * Created on December 15, 2023, 1:12 PM
+ * Created on December 18, 2023, 11:01 AM
  */
 
 #include <cstdlib>
+
+#include "C02Fundamentals/Functions/ParametersPassingMethods/ParametersSwappingMethods.h"
 
 using namespace std;
 
@@ -19,6 +17,8 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
+    
+    testMySwap();
 
     return 0;
 }
